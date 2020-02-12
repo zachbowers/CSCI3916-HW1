@@ -1,25 +1,22 @@
 {
-  "name": "echoapp",
+  "name": "csci3916-hw1",
   "version": "1.0.0",
-  "description": "Echo App",
+  "description": "\"# CSCI3926-HW1\"",
   "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "mocha --timeout 10000 --exit"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shawnmccarthy/week3.git"
+    "url": "git+https://github.com/zachbowers/CSCI3916-HW1.git"
   },
-  "author": "Shawn McCarthy",
-  "license": "MIT",
+  "author": "Zach Bowers",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shawnmccarthy/week3/issues"
+    "url": "https://github.com/zachbowers/CSCI3916-HW1/issues"
   },
-  "homepage": "https://github.com/shawnmccarthy/week3#readme",
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "chai-http": "^4.2.0",
-    "mocha": "^5.2.0",
-    "sinon": "^7.2.2"
-  }
+  "homepage": "https://github.com/zachbowers/CSCI3916-HW1#readme"
 }
